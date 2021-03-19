@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "OrleansGrpcRepro";
+
+package orleans_grpc_repro;
+
+message Event1 {	
+	int64 quantity = 2;
+}
+
